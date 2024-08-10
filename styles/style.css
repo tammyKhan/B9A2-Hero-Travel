@@ -9,7 +9,6 @@ body{
 }
 .container{
   width:90%;
-  border: 2px solid red;
   margin:5rem auto; /* 1rem = 16px */
   border-radius: 1px;
 }
@@ -176,4 +175,26 @@ select{
   color:white;
   font-size: 28px;
   font-weight: bold;
+}
+/* Footer */
+.footer-section {
+  background:rgba(19,19,24,0.05);
+  padding:2rem 0;
+}
+.footer-section .logo{
+  margin:2rem auto;
+}
+.social {
+  width:200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:2rem auto;
+}
+.social i {
+  height:44px;
+  font-size: 24px;
+}
+.footer-section hr{
+  margin:2rem 0;
 }
